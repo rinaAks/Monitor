@@ -1,4 +1,7 @@
-﻿#include <iostream>
+//монитор с двумя потоками: потоком-поставщиком и потоком-потребителем. 
+//лабораторная по операционным системам, полное описание - https://marigostra.ru/materials/oslab.html
+
+#include <iostream>
 #include <pthread.h>
 #include <unistd.h>
 
